@@ -4,6 +4,7 @@ body {
 }
 .intro-area {
     display: flex;
+    margin-left: 50px;
 }
 .about-mission {
     width: 40%;
@@ -48,6 +49,7 @@ a {
 }
 .mission-details {
     display: flex;
+    margin-left: 60px;
 }
 .half-width {
     width: 25%;
@@ -96,6 +98,7 @@ a {
 }
 .stay-safe {
     display: flex;
+    margin-left: 50px;
 }
 .be-aware {
     width: 30%;
