@@ -52,9 +52,11 @@ a {
 .half-width {
     width: 25%;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 .half-width img {
     width: 55%;
+    margin-bottom: 20px;
 
 }
 #mission-box {
@@ -71,4 +73,12 @@ a {
     background-color: rgb(236, 220, 221);
     border-radius: 10px;
     padding: 10px 25px;
+}
+#bottom-line {
+    display: block;
+}
+.heading-font {
+    font-size: 40px;
+    font-family: 'Fjalla One'
+    font-weight: 900;
 }
