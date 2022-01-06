@@ -1,10 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin-left: 7%;
     
 }
 .intro-area {
     display: flex;
-    padding-left: 7%;
 }
 .about-mission {
     width: 40%;
@@ -13,14 +13,14 @@ body {
 .about-mission img {
     width: 80%;
 }
-h1 {
+.heading {
     font-size: 75px;
     font-family: 'Abril Fatface', cursive;
     font-weight: 100;
     opacity: 0.8;
 }
 .left-border {
-    border-left: 5px solid rgb(248, 138, 95);n;
+    border-left: 5px solid rgb(248, 138, 95);
 
 }
 span {
@@ -38,4 +38,37 @@ a {
     text-decoration: none;
     font-size: 17px;
     border-radius: 14px;
+}
+#mission-area {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 300;
+    width: 92%;
+}
+.mission-details {
+    display: flex;
+}
+.half-width {
+    width: 25%;
+    margin-left: 20px;
+}
+.half-width img {
+    width: 55%;
+
+}
+#mission-box {
+    background-color: rgb(231, 231, 236);
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+#vission-box {
+    background-color: rgb(255, 229, 255);
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+#goal-box {
+    background-color: rgb(236, 220, 221);
+    border-radius: 10px;
+    padding: 10px 25px;
 }
